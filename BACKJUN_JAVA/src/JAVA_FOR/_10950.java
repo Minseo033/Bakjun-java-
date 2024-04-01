@@ -41,10 +41,10 @@ public class _10950 {
 			int a = sc.nextInt();
 			int b = sc.nextInt();
 			
-			// 두 정수의 합을 출력
+			// 두 정수의 합을 출력 
 			System.out.println(a + b);
 		}
-		
+		 
 		sc.close();
 	}
 }
