@@ -30,7 +30,7 @@ public class _10950 {
 	 * 메인 메서드
 	 * @param args 명령행 인수
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		Scanner sc = new Scanner(System.in) ;
 		
 		// 테스트 케이스의 개수를 입력 받음
