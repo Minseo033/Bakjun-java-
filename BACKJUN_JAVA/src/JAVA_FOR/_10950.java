@@ -44,7 +44,7 @@ public class _10950 {
 			// 두 정수의 합을 출력 
 			System.out.println(a + b);
 		}
-		   
+		    
 		sc.close();
 	}
 }
