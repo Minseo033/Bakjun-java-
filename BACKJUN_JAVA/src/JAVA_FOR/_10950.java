@@ -25,7 +25,7 @@ package JAVA_FOR;
 import java.util.Scanner;
 
 public class _10950 {
-	
+	 
 	/**
 	 * 메인 메서드
 	 * @param args 명령행 인수
