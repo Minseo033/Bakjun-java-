@@ -1,4 +1,4 @@
- // 백준 단계별로풀기[FOR문]  COMMIT TEST !!
+ // 백준 단계별로풀기[FOR문]  
  // 반복문 2번 [백준10950]
  // 문제
  // 두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
@@ -24,7 +24,7 @@ package JAVA_FOR;
 
 import java.util.Scanner;
 
-public class _10950 {
+public class A2_10950 {
 	  
 	public static void main(String[] args) {  
 		Scanner sc = new Scanner(System.in) ;
@@ -36,7 +36,7 @@ public class _10950 {
 		for(int i=0; i<t; i++) {
 			int a = sc.nextInt();
 			int b = sc.nextInt();
-			
+			 
 			// 두 정수의 합을 출력 
 			System.out.println(a + b);
 		}
