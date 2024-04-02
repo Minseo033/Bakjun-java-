@@ -39,6 +39,8 @@ public class A4_25304 {
 		Scanner sc = new Scanner(System.in) ;
 		
 		long X = sc.nextLong() ; // 영수증에 적힌 총 금액
+		
+		for()
 		int N = sc.nextInt() ; // 영수증에 적힌 구매한 물건 종류의 수 
 		
 	}
