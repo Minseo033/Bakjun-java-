@@ -39,9 +39,18 @@ public class A4_25304 {
 		Scanner sc = new Scanner(System.in) ;
 		
 		long X = sc.nextLong() ; // 영수증에 적힌 총 금액
-		
-		for()
 		int N = sc.nextInt() ; // 영수증에 적힌 구매한 물건 종류의 수 
+	    int total=0 ; // 계산한 총 금액
 		
+		for(int i=0; i<N; i++) {
+			int a = sc.nextInt() ; // 물건의 가격
+			int b = sc.nextInt() ; // 물건의 가격
+			total = total + a * b ; // 총 물건의 금액을 구하는 계산식
+		}
+		if(total == X) { //total과 영수증의 금액이 일치하면 Yes 출력.
+			System.out.println("Yes");
+		}else { //total과 영수증의 금액이 불일치하면 NO 출력.
+			System.out.println("No");
+		}
 	}
 }
