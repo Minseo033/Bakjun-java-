@@ -27,7 +27,7 @@ package JAVA_IF;
 
 import java.util.Scanner;
 
-public class A1_1330 {
+public class A1_1330 {  
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
