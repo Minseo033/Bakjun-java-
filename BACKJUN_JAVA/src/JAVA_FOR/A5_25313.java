@@ -15,9 +15,14 @@ public class A5_25313 {
 		
 		Scanner sc = new Scanner(System.in) ;
 		
+		int N = sc.nextInt() ; // N바이트 입력 
 		
-		
-
+		// 4를 입력했을때 Long 출력, 8입력시 Long Long 출력
+		for(int i=0; i<N/4; i++) { 
+			System.out.print("long "); //Long 뒤에 바로 int가 와야하므로 println이 아닌 print로 출력
+		}
+		System.out.println("int");
+ 
 	}
 
 }
