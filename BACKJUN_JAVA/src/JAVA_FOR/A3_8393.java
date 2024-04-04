@@ -30,6 +30,6 @@ public class A3_8393 {
 		for(int i=1; N>i; i++) { // 
 		}
 		System.out.println(N * (N+1) /2); // 1 ~ N까지 합을 구하는 공식
-		
+		 
 	}
 }
